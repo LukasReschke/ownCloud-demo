@@ -1,0 +1,510 @@
+BEGIN:VCARD
+VERSION:3.0
+REV:2012-10-10T15:11:11+00:00
+URL:http://algorithmsforthekitchen.com/blog/
+NOTE:news app, community
+PRODID:-//ownCloud//NONSGML Contacts 0.2.4//EN
+UID:4a57f96623
+FN:Alessandro Cosentino
+N:Alessandro Cosentino;;;;
+CATEGORIES:Demo Category
+END:VCARD
+
+BEGIN:VCARD
+VERSION:3.0
+REV:2012-10-10T15:11:11+00:00
+URL:http://arthur-schiwon.de/
+NOTE:Bookmarks, LDAP
+PRODID:-//ownCloud//NONSGML Contacts 0.2.4//EN
+UID:8590045f5b
+FN:Arthur Schiwon
+N:Arthur Schiwon;;;;
+CATEGORIES:Demo Category
+END:VCARD
+
+BEGIN:VCARD
+VERSION:3.0
+N:Bart Visscher;;;;
+PHOTO;ENCODING=b;TYPE=image/png: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
+ Zf4cp/g+wpguGGOJURAAAAABJRU5ErkJggg==
+URL:http://thisnet.nl/
+NOTE:calendar & contacts
+UID:c6440bfc91
+FN:Bart Visscher
+PRODID:-//ownCloud//NONSGML Contacts 0.2.4//EN
+REV:2012-10-10T14:58:21+00:00
+CATEGORIES:Demo Category
+END:VCARD
+
+BEGIN:VCARD
+VERSION:3.0
+UID:0cefd9f55e
+FN:Bartek Przybylski
+PRODID:-//ownCloud//NONSGML Contacts 0.2.4//EN
+N:Bartek Przybylski;;;;
+NOTE:Android app, gallery
+REV:2012-10-10T15:06:52+00:00
+CATEGORIES:Demo Category
+END:VCARD
+
+BEGIN:VCARD
+VERSION:3.0
+REV:2012-10-10T15:11:11+00:00
+NOTE:Documentation, news app
+PRODID:-//ownCloud//NONSGML Contacts 0.2.4//EN
+UID:8590045f5m
+FN:Bernhard Posselt
+N:Bernhard Posselt;;;;
+CATEGORIES:Demo Category
+END:VCARD
+
+BEGIN:VCARD
+VERSION:3.0
+REV:2012-10-10T15:02:59+00:00
+URL:http://www.schiessle.org/
+NOTE:encryption
+PRODID:-//ownCloud//NONSGML Contacts 0.2.4//EN
+UID:d9b6a75213
+FN:Björn Schießle
+N:Björn Schießle;;;;
+IMPP;X-SERVICE-TYPE=TWITTER::schiessle
+CATEGORIES:Demo Category
+END:VCARD
+
+BEGIN:VCARD
+VERSION:3.0
+REV:2012-10-10T15:05:48+00:00
+URL:http://bmaron.net/
+NOTE:fixes & improvements all over the place
+PRODID:-//ownCloud//NONSGML Contacts 0.2.4//EN
+UID:aa455037ea
+FN:Brice Maron
+CATEGORIES:Demo Category
+N:Brice Maron;;;;
+CATEGORIES:Demo Category
+END:VCARD
+
+BEGIN:VCARD
+VERSION:3.0
+REV:2012-10-10T15:11:11+00:00
+URL:http://daniel.molkentin.de/
+NOTE:Desktop syncing
+PRODID:-//ownCloud//NONSGML Contacts 0.2.4//EN
+UID:8590045f5c
+FN:Daniel Molkentin
+N:Daniel Molkentin;;;;
+CATEGORIES:Demo Category
+END:VCARD
+
+BEGIN:VCARD
+VERSION:3.0
+UID:77013fd001
+FN:Florian jacob
+PRODID:-//ownCloud//NONSGML Contacts 0.2.4//EN
+N:Florian jacob;;;;
+NOTE:documentation, ownCloud.org website
+REV:2012-10-10T15:04:20+00:00
+CATEGORIES:Demo Category
+END:VCARD
+
+BEGIN:VCARD
+VERSION:3.0
+UID:774137fbd9
+FN:Florian Pritz
+PRODID:-//ownCloud//NONSGML Contacts 0.2.4//EN
+N:Florian Pritz;;;;
+NOTE:bug fixes, lightbox
+REV:2013-03-14T13:20:39+00:00
+CATEGORIES:Demo Category
+END:VCARD
+
+BEGIN:VCARD
+VERSION:3.0
+REV:2012-10-10T14:57:44+00:00
+IMPP;X-SERVICE-TYPE=TWITTER::fkarlitschek
+URL:http://blog.karlitschek.de/
+ORG:ownCloud Inc
+FN:Frank Karlitschek
+PRODID:-//ownCloud//NONSGML Contacts 0.2.4//EN
+NOTE:project founder, architecture, apps, versioning, KDE integration
+UID:89126ccb94
+N:Frank Karlitschek;;;;
+CATEGORIES:Demo Category
+END:VCARD
+
+BEGIN:VCARD
+VERSION:3.0
+UID:271f8057d7
+FN:Georg Ehrke
+PRODID:-//ownCloud//NONSGML Contacts 0.2.4//EN
+N:Georg Ehrke;;;;
+NOTE:calendar & contacts
+REV:2012-10-10T14:59:46+00:00
+CATEGORIES:Demo Category
+END:VCARD
+
+BEGIN:VCARD
+VERSION:3.0
+UID:c9dee2f8d8
+FN:Jakob Sack
+PRODID:-//ownCloud//NONSGML Contacts 0.2.4//EN
+N:Jakob Sack;;;;
+NOTE:backends, contacts & calendar, tutorials, mentoring
+REV:2012-10-10T14:52:35+00:00
+END:VCARD
+
+BEGIN:VCARD
+VERSION:3.0
+IMPP;X-SERVICE-TYPE=TWITTER::janborchardt
+PRODID:-//ownCloud//NONSGML Contacts 0.2.4//EN
+URL:http://jancborchardt.net/
+REV:2012-10-10T14:57:54+00:00
+NOTE:interface & interaction design, user experience, community
+FN:Jan-Christoph Borchardt
+N:Jan-Christoph Borchardt;;;;
+CATEGORIES:Demo Category
+UID:d6fa599b37
+END:VCARD
+
+BEGIN:VCARD
+VERSION:3.0
+REV:2012-10-10T15:11:11+00:00
+URL:http://butonic.de/
+NOTE:oracle, search
+PRODID:-//ownCloud//NONSGML Contacts 0.2.4//EN
+UID:8590045f5s
+IMPP;X-SERVICE-TYPE=TWITTER::butonic
+FN:Jörn Friedrich Dreyer
+N:Jörn Friedrich Dreyer;;;;
+CATEGORIES:Demo Category
+END:VCARD
+
+BEGIN:VCARD
+VERSION:3.0
+REV:2012-10-10T15:10:33+00:00
+URL:https://www.statuscode.ch/
+NOTE:security team member, security reviews
+PRODID:-//ownCloud//NONSGML Contacts 0.2.4//EN
+UID:f15fa62f7b
+FN:Lukas Reschke
+N:Lukas Reschke;;;;
+CATEGORIES:Demo Category
+END:VCARD
+
+BEGIN:VCARD
+VERSION:3.0
+UID:ebdbd49a49
+FN:Marvin Thomas Rabe
+PRODID:-//ownCloud//NONSGML Contacts 0.2.4//EN
+N:Marvin Thomas Rabe;;;;
+NOTE:interface
+REV:2012-10-10T15:06:06+00:00
+CATEGORIES:Demo Category
+END:VCARD
+
+BEGIN:VCARD
+VERSION:3.0
+REV:2012-10-10T15:00:13+00:00
+URL:http://blog.gapinthecloud.com/
+NOTE:sharing, external storage
+PRODID:-//ownCloud//NONSGML Contacts 0.2.4//EN
+UID:a0dc2a0197
+FN:Michael Gapczynski
+N:Michael Gapczynski;;;;
+CATEGORIES:Demo Category
+END:VCARD
+
+BEGIN:VCARD
+VERSION:3.0
+IMPP;X-SERVICE-TYPE=TWITTER::seetheprogress
+PRODID:-//ownCloud//NONSGML Contacts 0.2.4//EN
+URL:https://seetheprogress.com
+URL:https://stp-ip.net
+REV:2012-10-10T15:04:49+00:00
+NOTE:demo installation
+FN:Michael Grosser
+N:Michael Grosser;;;;
+UID:e7150c39fe
+CATEGORIES:Demo Category
+END:VCARD
+
+BEGIN:VCARD
+VERSION:3.0
+NOTE:back- & frontends, media player, mentoring & more
+N:Robin Appelman;;;;
+UID:ee5b579378
+REV:2012-10-10T14:48:49+00:00
+FN:Robin Appelman
+PRODID:-//ownCloud//NONSGML Contacts 0.2.4//EN
+CATEGORIES:Demo Category
+END:VCARD
+
+BEGIN:VCARD
+VERSION:3.0
+UID:fec0a8a455
+FN:Sam Tuke
+PRODID:-//ownCloud//NONSGML Contacts 0.2.4//EN
+N:;;;;;
+NOTE:version control system, encrypted file storage
+REV:2012-10-10T15:09:43+00:00CATEGORIES:Demo Category
+
+END:VCARD
+
+BEGIN:VCARD
+VERSION:3.0
+NOTE:Drag’n'Drop File Upload
+PRODID:-//ownCloud//NONSGML Contacts 0.2.4//EN
+UID:3e4cc1a90a
+REV:2012-10-10T15:10:07+00:00
+N:;;;;;
+FN:Simon Birnbach
+CATEGORIES:Demo Category
+END:VCARD
+
+BEGIN:VCARD
+VERSION:3.0
+UID:574b150b9c
+FN:Thomas Müller
+PRODID:-//ownCloud//NONSGML Contacts 0.2.4//EN
+N:Thomas Müller;;;;
+NOTE:ODF viewer
+REV:2012-10-10T15:08:44+00:00
+END:VCARD
+
+BEGIN:VCARD
+VERSION:3.0
+REV:2012-10-10T15:11:11+00:00
+URL:http://tanghus.net/
+IMPP;X-SERVICE-TYPE=TWITTER::tangus
+NOTE:contacts
+PRODID:-//ownCloud//NONSGML Contacts 0.2.4//EN
+UID:00a8b3c1eb
+FN:Thomas Tanghus
+N:Thomas Tanghus;;;;
+CATEGORIES:Demo Category
+END:VCARD
+
+BEGIN:VCARD
+VERSION:3.0
+IMPP;X-SERVICE-TYPE=TWITTER::tomneedham
+PRODID:-//ownCloud//NONSGML Contacts 0.2.4//EN
+URL:https://tomneedham.com/
+REV:2012-10-10T15:01:09+00:00
+NOTE:text editor, data migration, ownCloud.org website
+FN:Tom Needham
+N:Tom Needham;;;;
+CATEGORIES:Demo Category
+UID:77a4ca464d
+END:VCARD

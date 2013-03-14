@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<info>
+	<id>user_demo</id>
+	<name>Demo user backend</name>
+	<description>A custom user backend for the demo server.</description>
+	<licence>AGPL</licence>
+	<author>Lukas Reschke</author>
+	<require>4.93</require>
+	<shipped>true</shipped>
+	<types>
+		<authentication/>
+	</types>
+</info>
