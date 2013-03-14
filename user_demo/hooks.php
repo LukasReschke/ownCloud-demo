@@ -108,9 +108,9 @@ class Data  {
 	static public function cleanOldUsers() {
 		$lastTime = OCP\DB::prepare('
 			SELECT * FROM `*PREFIX*user_demo`
-			WHERE `login` < ?
+			WHERE `login` > ?
 			');
-		$lastTime->execute(array(time()-86400));
+		$lastTime->execute(array(time()+86400));
 		while( $row = $results->fetchRow() ) {
 			\OC_Helper::rmdirr(\OC_Config::getValue( "datadirectory", \OC::$SERVERROOT."/data" ) . "/" .$row['userid'] .'/');
 			\OC_Preferences::deleteUser($row['userid']);
