@@ -1,0 +1,3 @@
+[submodule "user_demo/data/files"]
+	path = user_demo/data/files
+	url = git://github.com/owncloud/test-data.git
