@@ -86,6 +86,14 @@ class Data  {
 		@mkdir(\OC_Config::getValue( "datadirectory", \OC::$SERVERROOT."/data" ) . "/" . $uid .'/imports/');
 		copy(\OC_App::getAppPath('user_demo')."/data/contacts.vcf", \OC_Config::getValue( "datadirectory", \OC::$SERVERROOT."/data" ) . "/" . $uid .'/imports/contacts.vcf');	
 		require_once \OC_App::getAppPath('user_demo').'/contacts_import.php';
+
+		// Set the login timestamp
+		$query = \OCP\DB::prepare('
+			INSERT INTO *PREFIX*user_demo
+			(userid, login)
+			VALUES (?, ?)
+			');
+		$query->execute(array($uid, time()));
 	}
 
 	static public  function deleteData() {
@@ -94,6 +102,18 @@ class Data  {
 		if($uid != "demo") {
 			\OC_Helper::rmdirr(\OC_Config::getValue( "datadirectory", \OC::$SERVERROOT."/data" ) . "/" .$uid .'/');
 			\OC_Preferences::deleteUser($uid);
+		}
+	}
+
+	static public function cleanOldUsers() {
+		$lastTime = OCP\DB::prepare('
+			SELECT * FROM `*PREFIX*user_demo`
+			WHERE `login` < ?
+			');
+		$lastTime->execute(array(time()-86400));
+		while( $row = $results->fetchRow() ) {
+			\OC_Helper::rmdirr(\OC_Config::getValue( "datadirectory", \OC::$SERVERROOT."/data" ) . "/" .$row['userid'] .'/');
+			\OC_Preferences::deleteUser($row['userid']);
 		}
 	}
 }

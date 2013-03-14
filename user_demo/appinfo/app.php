@@ -30,3 +30,4 @@ OC_Group::useBackend(new OC_GROUP_DEMOAUTH());
 
 OCP\Util::connectHook( 'OC_User', 'post_login', 'OCA\demo_auth\Data', 'createData' );
 OCP\Util::connectHook( 'OC_User', 'logout', 'OCA\demo_auth\Data', 'deleteData' );
+OC_BackgroundJob_RegularTask::register('OCA\demo_auth\Data', 'cleanOldUsers');
