@@ -69,11 +69,11 @@ class Data  {
 
 	static public function createData($params) {
 		$uid = str_replace(array('/', '\\'), '',  $params['uid']);
-                @mkdir(\OC_Config::getValue( "datadirectory", \OC::$SERVERROOT."/data" ) . "/" . $uid .'/');
+                mkdir(\OC_Config::getValue( "datadirectory", \OC::$SERVERROOT."/data" ) . "/" . $uid .'/');
 
 		// Import files
-		$src = \OC_App::getAppPath('user_demo')."/data/files/"; 
-		$dst = \OC_Config::getValue( "datadirectory", \OC::$SERVERROOT."/data" ) . "/" . $uid .'/files/';
+		$src = \OC_App::getAppPath('user_demo')."/data/files"; 
+		$dst = \OC_Config::getValue( "datadirectory", \OC::$SERVERROOT."/data" ) . "/" . $uid .'/files';
 		Data::xcopy($src, $dst);
 
 		// Import bookmarks
@@ -84,7 +84,7 @@ class Data  {
 		$deleteAdressbooks = \OCP\DB::prepare( 'DELETE FROM `*PREFIX*contacts_addressbooks` WHERE `userid` LIKE ?' );
 		$deleteAdressbooks->execute(array( $uid ) );
 		// Copy the VCF
-		@mkdir(\OC_Config::getValue( "datadirectory", \OC::$SERVERROOT."/data" ) . "/" . $uid .'/imports/');
+		mkdir(\OC_Config::getValue( "datadirectory", \OC::$SERVERROOT."/data" ) . "/" . $uid .'/imports/');
 		copy(\OC_App::getAppPath('user_demo')."/data/contacts.vcf", \OC_Config::getValue( "datadirectory", \OC::$SERVERROOT."/data" ) . "/" . $uid .'/imports/contacts.vcf');	
 		require_once \OC_App::getAppPath('user_demo').'/contacts_import.php';
 
