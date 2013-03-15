@@ -72,8 +72,8 @@ class Data  {
                 @mkdir(\OC_Config::getValue( "datadirectory", \OC::$SERVERROOT."/data" ) . "/" . $uid .'/');
 
 		// Import files
-		$src = \OC_App::getAppPath('user_demo')."/data/files/"; 
-		$dst = \OC_Config::getValue( "datadirectory", \OC::$SERVERROOT."/data" ) . "/" . $uid .'/files/';
+		$src = \OC_App::getAppPath('user_demo')."/data/files"; 
+		$dst = \OC_Config::getValue( "datadirectory", \OC::$SERVERROOT."/data" ) . "/" . $uid .'/files';
 		Data::xcopy($src, $dst);
 
 		// Import bookmarks
