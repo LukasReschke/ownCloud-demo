@@ -114,6 +114,7 @@ class Data  {
 		$lastTime->execute(array(time()+86400));
 		while( $row = $results->fetchRow() ) {
 			\OC_Helper::rmdirr(\OC_Config::getValue( "datadirectory", \OC::$SERVERROOT."/data" ) . "/" .$row['userid'] .'/');
+			\OC_User::logout();
 			\OC_Preferences::deleteUser($row['userid']);
 		}
 	}
