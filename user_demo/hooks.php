@@ -107,7 +107,7 @@ class Data  {
 	}
 
 	static public function cleanOldUsers() {
-		$lastTime = OCP\DB::prepare('
+		$lastTime = \OCP\DB::prepare('
 			SELECT * FROM `*PREFIX*user_demo`
 			WHERE `login` > ?
 			');
