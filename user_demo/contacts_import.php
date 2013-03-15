@@ -31,6 +31,11 @@ foreach($lines as $line) {
 
 
 foreach($parts as $part) {
-	$vcard = Sabre\VObject\Reader::read($part);
-	OCA\Contacts\VCard::add($id, $vcard);
+        try {
+                $vcard = Sabre\VObject\Reader::read($part);
+                \OCA\Contacts\VCard::add($id, $vcard);
+        } catch (Exception $e) {
+                OCP\Util::writeLog('contacts', 'Error importing vcard: ' . $e->getMessage(). $vcard, OCP\Util::ERROR);
+        }
 }
+
