@@ -112,7 +112,7 @@ class Data  {
 			WHERE `login` > ?
 			');
 		$lastTime->execute(array(time()+86400));
-		while( $row = $results->fetchRow() ) {
+		while( $row = $lastTime->fetchRow() ) {
 			\OC_Helper::rmdirr(\OC_Config::getValue( "datadirectory", \OC::$SERVERROOT."/data" ) . "/" .$row['userid'] .'/');
 			\OC_User::logout();
 			\OC_Preferences::deleteUser($row['userid']);
