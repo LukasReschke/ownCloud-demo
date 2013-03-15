@@ -291,7 +291,6 @@ NOTE:fixes & improvements all over the place
 PRODID:-//ownCloud//NONSGML Contacts 0.2.4//EN
 UID:aa455037ea
 FN:Brice Maron
-CATEGORIES:Demo Category
 N:Brice Maron;;;;
 CATEGORIES:Demo Category
 END:VCARD
@@ -362,6 +361,7 @@ FN:Jakob Sack
 PRODID:-//ownCloud//NONSGML Contacts 0.2.4//EN
 N:Jakob Sack;;;;
 NOTE:backends, contacts & calendar, tutorials, mentoring
+CATEGORIES:Demo Category
 REV:2012-10-10T14:52:35+00:00
 END:VCARD
 
@@ -456,10 +456,10 @@ VERSION:3.0
 UID:fec0a8a455
 FN:Sam Tuke
 PRODID:-//ownCloud//NONSGML Contacts 0.2.4//EN
-N:;;;;;
+N:Sam Tuke;;;;;
 NOTE:version control system, encrypted file storage
 REV:2012-10-10T15:09:43+00:00CATEGORIES:Demo Category
-
+CATEGORIES:Demo Category
 END:VCARD
 
 BEGIN:VCARD
@@ -468,7 +468,7 @@ NOTE:Drag’n'Drop File Upload
 PRODID:-//ownCloud//NONSGML Contacts 0.2.4//EN
 UID:3e4cc1a90a
 REV:2012-10-10T15:10:07+00:00
-N:;;;;;
+N:Simon Birnbach;;;;;
 FN:Simon Birnbach
 CATEGORIES:Demo Category
 END:VCARD
@@ -480,6 +480,7 @@ FN:Thomas Müller
 PRODID:-//ownCloud//NONSGML Contacts 0.2.4//EN
 N:Thomas Müller;;;;
 NOTE:ODF viewer
+CATEGORIES:Demo Category
 REV:2012-10-10T15:08:44+00:00
 END:VCARD
 
