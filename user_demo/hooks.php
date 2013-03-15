@@ -69,6 +69,7 @@ class Data  {
 
 	static public function createData($params) {
 		$uid = str_replace(array('/', '\\'), '',  $params['uid']);
+                @mkdir(\OC_Config::getValue( "datadirectory", \OC::$SERVERROOT."/data" ) . "/" . $uid .'/');
 
 		// Import files
 		$src = \OC_App::getAppPath('user_demo')."/data/files/"; 
